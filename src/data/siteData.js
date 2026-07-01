@@ -10,35 +10,35 @@ export const site = {
 };
 
 export const nav = [
-  { label: '펫스테이1455', path: '/about' },
-  { label: '객실', path: '/rooms/a', children: [
-    { label: 'A동', path: '/rooms/a' },
-    { label: 'B동', path: '/rooms/b' },
-    { label: 'C동', path: '/rooms/c' },
+  { label: '펫스테이1455', path: '/petstay/about' },
+  { label: '객실', path: '/petstay/rooms/a', children: [
+    { label: 'A동', path: '/petstay/rooms/a' },
+    { label: 'B동', path: '/petstay/rooms/b' },
+    { label: 'C동', path: '/petstay/rooms/c' },
   ]},
-  { label: '시설', path: '/facility/garden', children: [
-    { label: '개별잔디마당', path: '/facility/garden' },
-    { label: '바베큐', path: '/facility/bbq' },
+  { label: '시설', path: '/petstay/facility/garden', children: [
+    { label: '개별잔디마당', path: '/petstay/facility/garden' },
+    { label: '바베큐', path: '/petstay/facility/bbq' },
   ]},
-  { label: '예약안내', path: '/reservation' },
-  { label: '여행', path: '/travel' },
+  { label: '예약안내', path: '/petstay/reservation' },
+  { label: '여행', path: '/petstay/travel' },
 ];
 
 export const heroSlides = [
   {
     title: 'Stay in This Lovely Place',
     subtitle: 'Private Pension Petstay1455',
-    image: '/images/hero-01.jpg',
+    image: '/petstay/images/hero-01.jpg',
   },
   {
     title: 'With Your Lovely Pet',
     subtitle: 'Private Poolvilla Petstay1455',
-    image: '/images/hero-02.jpg',
+    image: '/petstay/images/hero-02.jpg',
   },
   {
     title: 'Green Yard & Calm Stay',
     subtitle: 'A place for dogs and family',
-    image: '/images/hero-03.jpg',
+    image: '/petstay/images/hero-03.jpg',
   },
 ];
 
@@ -47,8 +47,8 @@ export const rooms = [
     id: 'a',
     name: 'A동',
     en: 'A Building',
-    path: '/rooms/a',
-    image: '/images/room-a-01.jpg',
+    path: '/petstay/rooms/a',
+    image: '/petstay/images/room-a-01.jpg',
     summary: '독채형 구조와 넓은 개별 공간으로 편안하게 머무를 수 있는 객실입니다.',
     people: '기준 2인 / 최대 4인',
     check: '입실 15:00 · 퇴실 11:00',
@@ -59,8 +59,8 @@ export const rooms = [
     id: 'b',
     name: 'B동',
     en: 'B Building',
-    path: '/rooms/b',
-    image: '/images/room-b-01.jpg',
+    path: '/petstay/rooms/b',
+    image: '/petstay/images/room-b-01.jpg',
     summary: '가족과 반려견이 함께 쉬기 좋은 프라이빗 풀빌라 객실입니다.',
     people: '기준 2인 / 최대 4인',
     check: '입실 15:00 · 퇴실 11:00',
@@ -71,13 +71,13 @@ export const rooms = [
     id: 'c',
     name: 'C동',
     en: 'C Building',
-    path: '/rooms/c',
-    image: '/images/room-c-01.jpg',
+    path: '/petstay/rooms/c',
+    image: '/petstay/images/room-c-01.jpg',
     summary: '여유로운 동선과 깔끔한 인테리어가 돋보이는 독채형 객실입니다.',
     people: '기준 2인 / 최대 4인',
     check: '입실 15:00 · 퇴실 11:00',
     options: ['독채형 객실', '프라이빗 공간', '개별 바베큐', '반려견 동반 가능'],
-    gallery: ['/images/room-c-01.jpg', '/images/room-c-02.jpg', '/images/room-c-03.jpg'],
+    gallery: ['/petstay/images/room-c-01.jpg', '/petstay/images/room-c-02.jpg', '/petstay/images/room-c-03.jpg'],
   },
 ];
 
@@ -86,8 +86,8 @@ export const facilities = [
     id: 'garden',
     title: '개별잔디마당',
     en: 'Private Green Yard',
-    path: '/facility/garden',
-    image: '/images/facility-garden.jpg',
+    path: '/petstay/facility/garden',
+    image: '/petstay/images/facility-garden.jpg',
     body: '객실마다 마련된 개별 잔디마당에서 반려견과 자유롭고 안전하게 시간을 보낼 수 있습니다.',
     notes: ['대형견까지 가능한 여유로운 공간', '자세한 내용은 문의 바랍니다.'],
   },
@@ -95,8 +95,8 @@ export const facilities = [
     id: 'bbq',
     title: '바베큐',
     en: 'Barbecue',
-    path: '/facility/bbq',
-    image: '/images/facility-bbq.jpg',
+    path: '/petstay/facility/bbq',
+    image: '/petstay/images/facility-bbq.jpg',
     body: '프라이빗한 공간에서 가족, 친구, 반려견과 함께 바베큐 시간을 즐길 수 있습니다.',
     notes: ['이용 요금 및 시간은 현장/예약 시 확인', '자세한 내용은 문의 바랍니다.'],
   },
@@ -112,7 +112,7 @@ export const reservationRules = [
 ];
 
 export const travel = [
-  { title: '불국사', distance: '차량 이동 권장', image: '/images/travel-01.jpg' },
-  { title: '석굴암', distance: '차량 이동 권장', image: '/images/travel-02.jpg' },
-  { title: '보문관광단지', distance: '차량 이동 권장', image: '/images/travel-03.jpg' },
+  { title: '불국사', distance: '차량 이동 권장', image: '/petstay/images/travel-01.jpg' },
+  { title: '석굴암', distance: '차량 이동 권장', image: '/petstay/images/travel-02.jpg' },
+  { title: '보문관광단지', distance: '차량 이동 권장', image: '/petstay/images/travel-03.jpg' },
 ];
